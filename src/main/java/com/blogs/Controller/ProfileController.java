@@ -12,7 +12,7 @@ import java.security.Principal;
 
 @RestController
 @RequestMapping("/profile")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://blogbyyatharth.netlify.app/")
 public class ProfileController {
 
     private final ProfileService service;
